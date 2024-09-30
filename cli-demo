@@ -1,0 +1,66 @@
+ABOUT US
+<template>
+    <div id="about-us">
+        <div id="todo-card">
+            <div class="container">
+                <div class="alert alert-primary" roler="alert">
+                    <h1>{{ msg6 }}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+    export default {
+        name: 'about us',
+        author: 'Ariana Francesca N. Punsalang',
+        data () {
+            return {
+                msg6: 'This is the About component.'
+            }
+        }
+    }
+</script>
+
+<style>
+h1 {
+    color: antiquewhite;
+    margin-top: 1cm;
+    font-size: large;
+}
+</style>
+-----------------------------------------------------------------
+APP
+<template>
+    <div id="about-us">
+        <div id="todo-card">
+            <div class="container">
+                <div class="alert alert-primary" roler="alert">
+                    <h1>{{ msg6 }}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+    export default {
+        name: 'about us',
+        author: 'Ariana Francesca N. Punsalang',
+        data () {
+            return {
+                msg6: 'This is the About component.'
+            }
+        }
+    }
+</script>
+
+<style>
+h1 {
+    color: antiquewhite;
+    margin-top: 1cm;
+    font-size: large;
+}
+</style>
+
